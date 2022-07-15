@@ -1,0 +1,48 @@
+.portfolio {
+  &__container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+
+    .portfolio__block {
+      border-radius: 3px;
+      padding: 47px 0 79px 0;
+
+      &__title {
+        margin-bottom: 77px;
+        text-align: center;
+        font-family: "Roboto Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #2f2f51;
+      }
+
+      &__foto {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 101px;
+
+        img {
+          width: 214.79px;
+          height: 214.79px;
+          filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+}
+
+// разобраться с .portfolio__container
+
+@media screen and (max-width: 992px) {
+  // .portfolio__container{    
+  //   width: 880px;
+  // }
+
+  .portfolio__block__foto-pic:last-child {
+    display: none;
+  }
+}

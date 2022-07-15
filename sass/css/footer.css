@@ -1,0 +1,264 @@
+.footer * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer .contacts__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 29px;
+}
+
+.footer .contacts__container .contacts__header {
+  margin-bottom: 59px;
+  text-align: center;
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2f2f51;
+}
+
+.footer .contacts__container .contacts__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .contacts__container .contacts__block__info {
+  padding-left: 50px;
+}
+
+.footer .contacts__container .contacts__block__info__title {
+  margin-bottom: 15px;
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2f2f51;
+}
+
+.footer .contacts__container .contacts__block__info__number {
+  margin-bottom: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.footer .contacts__container .contacts__block__info__number-icon {
+  margin-top: 5px;
+  padding-right: 27px;
+  height: 26px;
+}
+
+.footer .contacts__container .contacts__block__info__number-phone {
+  padding-right: 40px;
+}
+
+.footer .contacts__container .contacts__block__info__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 13px;
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.footer .contacts__container .contacts__block__info__location-icon {
+  padding-right: 27px;
+}
+
+.footer .contacts__container .contacts__block__info__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 58px;
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.footer .contacts__container .contacts__block__info__mail-icon {
+  padding-right: 27px;
+}
+
+.footer .contacts__container .contacts__block__info__text {
+  width: 215px;
+  margin-bottom: 20px;
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2f2f51;
+}
+
+.footer .contacts__container .contacts__block__info__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .contacts__container .contacts__block__info__links-icons {
+  padding-right: 13px;
+}
+
+.footer .contacts__container .contacts__block__feedback {
+  margin-left: 70px;
+}
+
+.footer .contacts__container .contacts__block__feedback__form {
+  position: relative;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  width: 511px;
+  padding: 43px 60px 65px 57px;
+}
+
+.footer .contacts__container .contacts__block__feedback__form-title {
+  margin-bottom: 27px;
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2f2f51;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs {
+  margin-bottom: 15px;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs-element {
+  width: 100%;
+  padding-left: 16px;
+  border-radius: 3px;
+  border: none;
+  display: block;
+  margin-bottom: 15px;
+  height: 52px;
+  background: #e2e2e2;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs-element-space {
+  width: 100%;
+  padding-left: 16px;
+  border-radius: 3px;
+  border: none;
+  display: block;
+  margin-bottom: 15px;
+  height: 134px;
+  background: #e2e2e2;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs ::-webkit-input-placeholder {
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424268;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs :-ms-input-placeholder {
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424268;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs ::-ms-input-placeholder {
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424268;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs ::placeholder {
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424268;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs__check-button {
+  margin-right: 10px;
+  width: 41px;
+  height: 25px;
+  border: none;
+  display: block;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs__check-text {
+  margin-top: 10px;
+  text-align: left;
+  font-family: "Roboto Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2f2f51;
+}
+
+.footer .contacts__container .contacts__block__feedback__form__inputs__check-text span {
+  color: #ef7f1a;
+}
+
+.footer .contacts__container .contacts__block__feedback__form-button {
+  padding: 17px 44px;
+  background: #2f2f51;
+  border-radius: 3px;
+  border: none;
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footer .contacts__container .contacts__block__feedback__form .workers {
+  position: absolute;
+  left: -310px;
+  bottom: -30px;
+}
+
+.footer .basement__container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 146px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #2f2f51;
+}
+/*# sourceMappingURL=footer.css.map */

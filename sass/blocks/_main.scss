@@ -1,0 +1,184 @@
+.main {
+  min-width: max-content;
+  margin-bottom: 70px;
+  height: 562px;
+  background-image: url(/images/main_background.png);
+  background-size: cover;
+  // padding-bottom: 65px;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  &__container {
+    width: 1200px;
+    margin: 0 auto;
+
+    .main__info {
+      display: flex;
+      padding-top: 69px;
+
+      &__left {
+        padding: 60px 52px 0px 85px;
+
+        &__title {
+          width: 500px;
+          margin-bottom: 38px;
+
+          &-header {
+            margin-bottom: 10px;
+            font-family: "Roboto Bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #ef7f04;
+          }
+
+          &-text {
+            color: white;
+            font-family: "Roboto Thin";
+            font-style: normal;
+            font-weight: 100;
+            font-size: 40px;
+            line-height: 40px;
+          }
+        }
+
+        &__advantages {
+          display: flex;
+          justify-content: space-between;
+
+          &__item {
+            width: 170px;
+            margin-right: 10px;
+
+            &-icon {
+              margin-bottom: 20px;
+            }
+
+            &-descriprion {
+              font-family: "Roboto Regular";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 18px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+
+      &__right {
+        margin-right: 80px;
+
+        &__feedback {
+          position: relative;
+          text-align: center;
+          background: white;
+          border-radius: 10px;
+          width: 405px;
+          padding: 43px 40px 65px 40px;
+
+          &-title {
+            font-family: "Roboto Bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #2f2f51;
+            margin-bottom: 27px;
+          }
+
+          &__inputs {
+            margin-bottom: 15px;
+
+            &-element {
+              width: 100%;
+              margin-bottom: 15px;
+              height: 40px;
+              padding-left: 16px;
+              border-radius: 3px;
+              border: none;
+              // outline: none;
+              display: block;
+              background: #e2e2e2;
+            }
+
+            ::placeholder {
+              font-family: "Roboto Regular";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 16px;
+              color: #424268;
+            }
+
+            &__check {
+              display: flex;
+
+              &-button {
+                width: 41px;
+                margin-right: 10px;
+                height: 25px;
+                border: none;
+                display: block;
+              }
+
+              &-text {
+                text-align: left;
+                font-family: "Roboto Regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #000000;
+
+                a {
+                  color: #4b67af;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+
+          &__button {
+            :hover {
+              opacity: 0.5;
+              transition: 0.2s;
+            }
+
+            &-button {
+              padding: 19px 40px;
+              background: #ef7f04;
+              border-radius: 3px;
+              border: none;
+              font-family: "Roboto Bold";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 16px;
+              color: #ffffff;
+            }
+          }
+
+          .measure {
+            position: absolute;
+            left: -90px;
+            bottom: -55px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main__info__left {
+    width: 60%;
+  }
+
+  .main__info__right {
+    display: none;
+  }
+}

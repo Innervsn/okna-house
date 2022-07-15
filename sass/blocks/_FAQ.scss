@@ -1,0 +1,62 @@
+.FAQ {
+  margin-bottom: 85px;
+
+  &__container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ef7f1a;
+    border-radius: 3px;
+
+    .FAQ__title {
+      padding-top: 40px;
+      text-align: center;
+      font-family: "Roboto Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+
+    .FAQ__block {
+      padding: 40px 100px 64px 100px;
+
+      &__questions {
+        margin-bottom: 30px;
+
+        &-area {
+          padding: 30px 0px 30px 19px;
+          border-radius: 3px;
+          background-color: white;
+          font-family: "Roboto Regular";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: #2f2f51;
+
+          p {
+            padding-top: 50px;
+          }
+
+          :hover {
+            color: #ef7f04;
+            transition: 0.2s;
+          }
+
+          &-text {
+            padding-top: 10px;
+            display: block;
+            cursor: pointer;
+            font-family: "Roboto Bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #2f2f51;
+          }
+        }
+      }
+    }
+  }
+}
